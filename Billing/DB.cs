@@ -170,7 +170,7 @@ namespace Billing
                 if (probOneCoin > procentUser)
                 {
                     probsUser[i] = probOneCoin;
-                    sumProbsDelta += probOneCoin;
+                    sumProbsDelta += (probOneCoin - procentUser);
                     countMinimalprob++;
                 }
                 else

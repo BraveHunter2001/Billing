@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing", "Billing\Billing.csproj", "{C3340070-7353-4220-852C-2E5EAC410ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing", "Billing\Billing.csproj", "{C3340070-7353-4220-852C-2E5EAC410ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinetBillingTest", "ClinetBillingTest\ClinetBillingTest.csproj", "{63B5B509-FA32-4F20-AB73-A7AB83245ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C3340070-7353-4220-852C-2E5EAC410ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3340070-7353-4220-852C-2E5EAC410ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3340070-7353-4220-852C-2E5EAC410ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B5B509-FA32-4F20-AB73-A7AB83245ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B5B509-FA32-4F20-AB73-A7AB83245ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B5B509-FA32-4F20-AB73-A7AB83245ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B5B509-FA32-4F20-AB73-A7AB83245ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
