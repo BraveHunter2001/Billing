@@ -140,7 +140,6 @@ namespace Billing
 
             return response;
         }
-
         public static Response CoinsEmission(long Amount)
         {
             if (Amount < usersRating.Count)
